@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>4.17-13</title>
+    <script type="text/javascript" src="4.17-13.js"></script>
+</head>
+<body>
+<script>
+    let matrix1=[];
+    let matrix2=[];
+    matrix1[0]=[0,1,2];
+    matrix1[1]=[3,4,5];
+    matrix1[2]=[6,7,8];
+    matrix2[0]=[9,10,11];
+    matrix2[1]=[12,13,14];
+    matrix2[2]=[15,16,17];
+    document.write("矩阵1：</br>");
+    printMatrix(matrix1);
+    document.write("矩阵2：</br>");
+    printMatrix(matrix2);
+    document.write("矩阵1平均值</br>");
+    printArray(row_averages(matrix1));
+    document.write("矩阵2平均值</br>");
+    printArray(row_averages(matrix2));
+</script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>6.14-3</title>
+    <style type="text/css">
+        p
+        {
+            margin: 0 auto;
+            width: 10em;
+        }
+        img
+        {
+            position: absolute;
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+<p>
+    <img src="IMG_0003.jpeg" name="img" style="top: 0;left: 0;visibility: hidden">
+    <img src="IMG_0003.jpeg" name="img" style="top: 0;left: 55%;visibility: hidden">
+    <img src="IMG_0003.jpeg" name="img" style="top: 50%;left: 0;visibility: hidden">
+    <img src="IMG_0003.jpeg" name="img" style="top: 50%;left: 55%;visibility: hidden">
+    <input type="button" value="Northwest" onclick="hOrV(img[0])"><br/>
+    <input type="button" value="Northeast" onclick="hOrV(img[1])"><br/>
+    <input type="button" value="Southwest" onclick="hOrV(img[2])"><br/>
+    <input type="button" value="Southeast" onclick="hOrV(img[3])"><br/>
+    这是一段个人的介绍，每行的字符数为20位。
+    这是一段个人的介绍，每行的字符数为20位。
+    这是一段个人的介绍，每行的字符数为20位。
+    这是一段个人的介绍，每行的字符数为20位。
+    这是一段个人的介绍，每行的字符数为20位。
+    这是一段个人的介绍，每行的字符数为20位。
+    这是一段个人的介绍，每行的字符数为20位。
+    这是一段个人的介绍，每行的字符数为20位。
+    这是一段个人的介绍，每行的字符数为20位。
+    这是一段个人的介绍，每行的字符数为20位。
+    这是一段个人的介绍，每行的字符数为20位。
+    这是一段个人的介绍，每行的字符数为20位。
+    这是一段个人的介绍，每行的字符数为20位。
+    这是一段个人的介绍，每行的字符数为20位。
+    这是一段个人的介绍，每行的字符数为20位。
+    这是一段个人的介绍，每行的字符数为20位。
+    这是一段个人的介绍，每行的字符数为20位。
+    这是一段个人的介绍，每行的字符数为20位。
+    这是一段个人的介绍，每行的字符数为20位。
+    这是一段个人的介绍，每行的字符数为20位。
+</p>
+<script>
+    let img=document.getElementsByName("img");
+    function hOrV(object)
+    {
+        if (object.style.visibility==='hidden') object.style.visibility='visible';
+        else object.style.visibility='hidden';
+    }
+</script>
+</body>
+</html>

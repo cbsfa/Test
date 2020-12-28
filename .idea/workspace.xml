@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="01a4cd2d-7d77-4476-8d6c-7b45ee514c4b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1j93m4EHfikLGJGHtXMegdfNjwz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="01a4cd2d-7d77-4476-8d6c-7b45ee514c4b" name="Default Changelist" comment="" />
+      <created>1603202637363</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603202637363</updated>
+      <workItem from="1603202639525" duration="2352000" />
+      <workItem from="1603286519497" duration="503000" />
+      <workItem from="1603610445147" duration="13682000" />
+      <workItem from="1604024269674" duration="3907000" />
+      <workItem from="1604470022146" duration="4064000" />
+      <workItem from="1604487335731" duration="4095000" />
+      <workItem from="1605074175473" duration="1210000" />
+      <workItem from="1605075562645" duration="21000" />
+      <workItem from="1605075678976" duration="6056000" />
+      <workItem from="1605233331225" duration="2536000" />
+      <workItem from="1605254772162" duration="1039000" />
+      <workItem from="1605696844465" duration="3192000" />
+      <workItem from="1606288034692" duration="1582000" />
+      <workItem from="1606443198139" duration="7889000" />
+      <workItem from="1606633032825" duration="5497000" />
+      <workItem from="1606702341461" duration="4928000" />
+      <workItem from="1606715838117" duration="4303000" />
+      <workItem from="1606815276041" duration="885000" />
+      <workItem from="1606888668088" duration="2000" />
+      <workItem from="1606889127857" duration="651000" />
+      <workItem from="1606890603033" duration="2478000" />
+      <workItem from="1606909586831" duration="1414000" />
+      <workItem from="1607327465659" duration="2596000" />
+      <workItem from="1608623954207" duration="841000" />
+      <workItem from="1608702789744" duration="1920000" />
+      <workItem from="1608705072070" duration="37000" />
+      <workItem from="1608705478181" duration="9329000" />
+      <workItem from="1608806759653" duration="6955000" />
+      <workItem from="1608896632187" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="385" y="148" width="670" height="670" key="search.everywhere.popup" timestamp="1608860758210">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state x="385" y="147" width="670" height="676" key="search.everywhere.popup/0.23.1440.800@0.23.1440.800" timestamp="1603633145291" />
+    <state x="385" y="147" width="670" height="679" key="search.everywhere.popup/0.23.1440.803@0.23.1440.803" timestamp="1605233721864" />
+    <state x="385" y="147" width="670" height="681" key="search.everywhere.popup/0.23.1440.805@0.23.1440.805" timestamp="1605075873179" />
+    <state x="385" y="148" width="670" height="670" key="search.everywhere.popup/0.25.1440.790@0.25.1440.790" timestamp="1608860758210" />
+    <state x="385" y="148" width="670" height="672" key="search.everywhere.popup/0.25.1440.793@0.25.1440.793" timestamp="1608710045738" />
+    <state x="385" y="148" width="670" height="674" key="search.everywhere.popup/0.25.1440.796@0.25.1440.796" timestamp="1608705714349" />
+  </component>
+</project>

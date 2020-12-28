@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>6.14-10</title>
+    <style>
+        #text
+        {
+            position: absolute;
+        }
+    </style>
+</head>
+<body onload="start()">
+<label id="text">Save time with TIMESAVER 2.2</label>
+</body>
+<script>
+    let text,x;
+    let rightX=1000,leftX=0;
+    let temp=false;
+    let colorTemp=0;
+    function start()
+    {
+        text=document.getElementById("text").style;
+        x=text.left;
+        x=x.match(/\d+/);
+        move();
+    }
+    function move()
+    {
+        if (temp===false)
+        {
+            if (x<rightX) x++;
+            else if (x===rightX) temp=true;
+        }
+        else
+        {
+            if (x>leftX) x--;
+            else if (x===leftX) temp=false;
+        }
+        colorTemp++;
+        if (colorTemp%10===0) text.color="blue";
+        else if (colorTemp%5===0) text.color="red";
+        text.left=x+"px";
+        setTimeout("move()",1);
+    }
+</script>
+</html>

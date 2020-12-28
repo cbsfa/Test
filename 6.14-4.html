@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>6.14-4</title>
+</head>
+<body>
+<p>
+    <label onmouseover="change(this,'Arial','italic','red','2em')" onmouseout="change(this,'sans-serif','normal','black','1em')">宽敞</label><br/>
+    <label onmouseover="change(this,'sans-serif','normal','black','1em')" onmouseout="change(this,'Arial','italic','red','2em')">温馨</label><br/>
+    <label onmouseover="change(this,'Times','oblique','pink','4em')" onmouseout="change(this,'Times New Roman','inherit','grey','2em')">舒适</label><br/>
+    <label onmouseover="change(this,'Times New Roman','inherit','grey','2em')" onmouseout="change(this,'Times','oblique','pink','4em')">冬暖夏凉</label><br/>
+</p>
+<script>
+    function change(object,fontFamily,fontStyle,color,fontSize)
+    {
+        object.style.fontFamily=fontFamily;
+        object.style.fontStyle=fontStyle;
+        object.style.color=color;
+        object.style.fontSize=fontSize;
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>6.14-8</title>
+    <style>
+        img
+        {
+            position: absolute;
+        }
+    </style>
+</head>
+<body onclick="move(window.event)">
+<img src="IMG_0003.jpeg" id="img">
+</body>
+<script>
+    let x;
+    let y;
+    function move(event)
+    {
+        x=event.clientX;
+        y=event.clientY;
+        document.getElementById("img").style.left=(parseInt(x)-200)+"px";
+        document.getElementById("img").style.top=(parseInt(y)-200)+"px";
+    }
+</script>
+</html>

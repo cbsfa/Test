@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>6.14-11</title>
+</head>
+<body>
+<label>起始位置X<input type="text" id="beginX"></label><br/>
+<label>起始位置Y<input type="text" id="beginY"></label><br/>
+<label>终止位置X<input type="text" id="endX"></label><br/>
+<label>终止位置Y<input type="text" id="endY"></label><br/>
+<label><input type="submit" onclick="initText()"></label>
+<p>
+    <span id="theText" style="position: absolute;left: 100px;top: 100px;font: bold 1.7em 'Times Roman';color: blue;">Jump in the lake!</span>
+</p>
+</body>
+<script>
+    let dom,x,y,finalX=300,finalY=300;
+    function initText()
+    {
+        dom=document.getElementById('theText').style;
+        dom.left=document.getElementById('beginX').value.match(/\d+/)+"px";
+        dom.top=document.getElementById('beginY').value.match(/\d+/)+"px";
+        finalX=document.getElementById('endX').value.match(/\d+/);
+        finalY=document.getElementById('endY').value.match(/\d+/);
+        x=dom.left.match(/\d+/);
+        y=dom.top.match(/\d+/);
+        moveText(x,y);
+    }
+    function moveText(x,y)
+    {
+        if (x!==finalX)
+        {
+            if (x>finalX) x--;
+            else if (x<finalX) x++;
+        }
+        if (y!==finalY)
+        {
+            if (y>finalY) y--;
+            else if (y<finalY) y++;
+        }
+        if (x!==finalX||y!==finalY)
+        {
+            dom.left=x+"px";
+            dom.top=y+"px";
+            setTimeout("moveText("+x+","+y+")",1)
+        }
+    }
+</script>
+</html>
